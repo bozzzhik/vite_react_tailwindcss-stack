@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
     assetsDir: 'assets',
-    sourcemap: true,
+    publicDir: 'static',
     minify: true,
     rollupOptions: {
       output: {
@@ -20,5 +20,6 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
-  }
+  },
+  base: ''
 })
