@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="flex mx-auto justify-center text-3xl mt-[10vw]">
         <a href="https://vitejs.dev" target="_blank">
-          <img src="./public/vite.svg" className="h-[6em] will-change-[filter] transition-[filter] duration-300 p-[1.5em] logo" alt="Vite logo" />
+          <img src="./vite.svg" className="h-[6em] will-change-[filter] transition-[filter] duration-300 p-[1.5em] logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="h-[6em] will-change-[filter] transition-[filter] duration-300 p-[1.5em] logo react" alt="React logo" />
